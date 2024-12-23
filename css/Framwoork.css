@@ -1,0 +1,317 @@
+/* The Stert Globle Verible */
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+/* The End Globle Verible */
+/* Start Box */
+.d-flex {
+    display: flex;
+}
+.f-wrap {
+    flex-wrap: wrap;
+}
+.f-alig-item {
+    align-items: center;
+}
+.f-speass-betten {
+    justify-content: space-between;
+}
+.f-justft-end {
+    justify-content: end;
+}
+.d-greed {
+    display: grid;
+}
+.gap-20 {
+    gap: 20px;
+}
+.gap-15 {
+    gap: 15px;
+}
+.d-block {
+    display: block;
+}
+.d-inlne-b {
+    display: inline-block;
+}
+@media (max-width: 767px) {
+    .block-mobile {
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+/* End Box */
+/* Stert Padding And Marrgin */
+.pa-5 {
+    padding: 7px;
+}
+.pa-10 {
+    padding: 10px;
+}
+.pa-15 {
+    padding: 15px;
+}
+.pa-20 {
+    padding: 20px;
+}
+.pt-10 {
+    padding-top: 10px;
+}
+.pt-15 {
+    padding-top: 15px;
+}
+.pt-20 {
+    padding-top: 20px;
+}
+.pl-5 {
+    padding-left: 5px;
+}
+.pl-10 {
+    padding-left: 10px;
+}
+.pl-15 {
+    padding-left: 15px;
+}
+.pl-20 {
+    padding-left: 20px;
+}
+.pl-25 {
+    padding-left: 27px;
+}
+.pr-10 {
+    padding-right: 10px;
+}
+.pr-15 {
+    padding-right: 15px;
+}
+.pr-20 {
+    padding-right: 20px;
+}
+.pb-10 {
+    padding-bottom: 10px;
+}
+.pb-15 {
+    padding-bottom: 15px;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.ma-0 {
+    margin: 0;
+}
+.ma-10 {
+    margin: 10px;
+}
+.ma-15 {
+    margin: 15px;
+}
+.ma-20 {
+    margin: 20px;
+}
+.mt-5 {
+    margin-top: 5px;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.mt-15 {
+    margin-top: 15px;
+}
+.mt-20 {
+    margin-top: 20px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.mt-25 {
+    margin-top: 25px;
+}
+.ml-10 {
+    margin-left: 10px;
+}
+.ml-15 {
+    margin-left: 15px;
+}
+.ml-20 {
+    margin-left: 20px;
+}
+.ml-25 {
+    margin-left: 25px;
+}
+.mr-10 {
+    margin-right: 10px;
+}
+.mr-5 {
+    margin-right: 5px;
+}
+.mr-15 {
+    margin-right: 15px;
+}
+.mr-20 {
+    margin-right: 20px;
+}
+.mr-25 {
+    margin-right: 25px;
+}
+.mr-30 {
+    margin-right: 30px;
+}
+.mb-5 {
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15 {
+    margin-bottom: 15px;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.mb-25 {
+    margin-bottom: 25px;
+}
+.mb-35 {
+    margin-bottom: 35px;
+}
+/* End Padding And Marrgin */
+/* Start Color */
+.c-blue {
+    color: var(--blue-color);
+}
+.c-bluealt {
+    color: var(--blue-alt-color);
+}
+.c-gray {
+    color: var(--grey-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+.c-oraing {
+    color: var(--orange-color);
+}
+.c-black {
+    color: black;
+}
+.c-white {
+    color: rgb(255, 255, 255);
+}
+.bc-red {
+    background-color: var(--red-color);
+}
+.bc-eee {
+    background-color: #eee;
+}
+.bc-blue {
+    background-color: var(--blue-color);
+}
+.bc-gray {
+    background-color: var(--grey-color);
+}
+.bg-green {
+    background-color: var(--green-color);
+}
+.bc-white {
+    background-color: #fff;
+}
+.bc-orenge {
+    background-color: var(--orange-color);
+}
+/* End Color */
+/* Start Position */
+.p-relative {
+    position: relative;
+}
+.p-absolute {
+    position: absolute;
+}
+/* End Position */
+/* Start Font */
+.text-c {
+    text-align: center;
+}
+.font-13 {
+    font-size: 13px;
+}
+.font-14 {
+    font-size: 14px;
+}
+.font-15 {
+    font-size: 15px;
+}
+.font-25 {
+    font-size: 25px;
+}
+@media (max-width: 767px) {
+    .txt-c-mobile {
+        text-align: center;
+    }
+}
+/* End Font */
+/* Start Border */
+.red-6 {
+    border-radius: 6px;
+}
+.red-7 {
+    border-radius: 7px;
+}
+.red-8 {
+    border-radius: 8px;
+}
+.red-helf {
+    border-radius: 50%;
+}
+.border-non {
+    border: none;
+}
+.boreder-eee {
+    border: 1px solid #eee;
+}
+.border-ccc {
+    border: 1px solid #ccc;
+}
+/* End Border */
+/* Start Width + Height */
+.w-full {
+    width: 100%;
+}
+w-100 {
+    width: 100px;
+}
+w-fit {
+    width: fit-content;
+}
+.h-full {
+    height: 100%;
+}
+.h-100 {
+    height: 100px;
+}
+/* End Width + Height */
+/* Start Components */
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.between-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+/* End Components */
